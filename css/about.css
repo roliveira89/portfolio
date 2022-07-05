@@ -1,0 +1,91 @@
+
+section.about{
+    background: var(--color-fundo-azul);
+    padding: 4rem 6.25rem;
+
+}
+
+div.about__container{
+    text-align: center;
+}
+
+h3.about__title{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: var(--color-titulos);
+    text-align: start;
+    margin: 0 0 2rem 0;
+}
+
+p.about__paragraph{
+    line-height: 1.5rem;
+    text-align: justify;
+    margin: 0;
+    color: #464646;
+}
+
+p.about__paragraph:nth-child(2){
+    margin-bottom: 1.5rem;
+}
+
+
+
+
+@media screen and (max-width: 1024px){
+
+    section.about{
+        padding: 2rem ;    
+    
+    }
+
+    div.about__container{
+        text-align: center;
+        padding: 0%;
+    }
+
+    h3.about__title{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    p.about__paragraph{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #464646;
+    }
+}
+
+@media screen and (max-width: 764px){
+    section.about{
+        padding: 1rem;    
+    
+    }
+
+    div.about__container{
+        text-align: center;
+        padding: 0%;
+    }
+
+    h3.about__title{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .skills__line{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

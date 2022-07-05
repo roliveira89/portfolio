@@ -1,0 +1,138 @@
+
+section.title{
+    margin: 2rem 6.25rem;
+    background: var(--cor-de-fundo);
+}
+
+.title__bio{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 50px;
+    color: var(--color-titulos);
+}
+
+img.title__profile{
+    width: 23rem;
+}
+
+div.title__div{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+h3.title__subsection{
+    font-size: 22px;
+    line-height: 26px;
+    color: var(--color-titulos);
+    font-weight: 400;
+}
+
+li.title__network__item a{
+    color: var(--color-titulos);
+}
+
+
+ul.title__network{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+
+    section.title{
+        margin: 1rem 2rem;
+    }
+
+    div.title__div{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    img.title__profile{
+        width: 30vw;
+    }
+
+    .title__bio{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    h3.title__subsection{
+        color: var(--color-titulos);
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    li.title__network__item a{
+        color: var(--color-titulos);
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600; /*achei mais interessante esse peso do que o que estava no figma, que era 500.*/
+        font-size: 16px;
+        line-height: 19px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .title{
+        margin: 1rem;
+    }
+
+    div.title__div{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    img.title__profile{
+        width: 30vw;
+    }
+
+    .title__bio{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    h3.title__subsection{
+        color: var(--color-titulos);
+        font-weight: 400;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    li.title__network__item a{
+        color: var(--color-titulos);
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    div.title__div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+      }
+}
