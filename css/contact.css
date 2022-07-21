@@ -234,6 +234,12 @@ button.formcontato__botao{
     color: #3951b2;
 }
 
+#mensagem{
+    margin-bottom: 13px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
 
 @media screen and (max-width: 1024px){
     section.formcontato{
@@ -283,7 +289,5 @@ button.formcontato__botao{
         -webkit-appearance: none;
     }
 
-    #mensagem{
-        margin-bottom: 13px;
-    }
+
 }
