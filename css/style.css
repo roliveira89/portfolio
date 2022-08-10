@@ -49,12 +49,6 @@ https://en.bem.info/methodology/quick-start/*/
 
 
 
-/*footeer*/
-
-section.footer{
-   
-}
-
 /* Chegou a hora de se desafiar com a responsividade, 
 utilize como referência os breakpoints @media abaixo*/
 
@@ -95,5 +89,12 @@ utilize como referência os breakpoints @media abaixo*/
  /*Contato*/
 
 /*Footer*/
+
+}
+
+button:active {
+    transform: scale(.96);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    user-select: none;
 
 }

@@ -16,7 +16,7 @@ var selecionandoDivParaErroMensagem = document.querySelector(".divParaErroMensag
 
 // regex e teste
 const regexpEmail = /\S+@\S+\.\S+/;
-const testeRegexEmail = regexpEmail.test(email)
+const testeRegexEmail = regexpEmail.test(selectInputEmail.value)
 
 
 selectInputeNome.addEventListener("blur", (evento) => {
@@ -26,7 +26,6 @@ selectInputeNome.addEventListener("blur", (evento) => {
     selecionandoDivParaErroNome.innerHTML = conteudo
     return selecionandoDivParaErroNome
     }else if(!selectInputeNome.value == ""){
-        console.log("com string digitado")
         var selecioandoMensagemErro = document.querySelector(".erro")
         selecioandoMensagemErro.remove()
     }
@@ -73,4 +72,11 @@ selectInputMensagem.addEventListener("blur", (evento) => {
     }
 })
 
+selectEnviarButton.addEventListener("click", (evento)=> {
+    evento.preventDefault()
+    if(!selectInputMensagem.value == "" || !selectInputAssunto.value == "" || !selectInputEmail.value == "" || testeRegexEmail || !selectInputeNome.value == ""){
+        alert("Prezados, esse formulário é apenas para mostra que eu sei como fazer uma validação de formulário via HTML e Javascript. Para entrar em contato, favor acessar o Linkedin. Atenciosamente, Daniel Faria")
+        window.location.href = "index.html"
+    }
+})
 

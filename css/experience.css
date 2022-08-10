@@ -36,6 +36,8 @@ h3.experience__text{
     font-size: 16px;
     line-height: 19px;
     color: var(--color-titulos);
+    text-align: initial;
+
 }
 
 
@@ -101,7 +103,7 @@ div.experience__description{
     display: flex;
 }
 
-section.experience div.experiencie__box:nth-child(3){
+section.experience div.experiencie__box:nth-child(odd){
     display: flex;
     flex-direction: row-reverse;
 }
@@ -124,7 +126,7 @@ section.experience div.experiencie__box:nth-child(3){
         line-height: 26px;
     }
 
-    section.experience div.experiencie__box:nth-child(3){
+    section.experience div.experiencie__box:nth-child(odd){
         display: flex;
         flex-direction: column;
     }
