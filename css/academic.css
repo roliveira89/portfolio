@@ -1,6 +1,6 @@
 
 section.academic{
-    padding: 4rem 6.25rem;
+    padding: 4rem 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,7 +20,7 @@ h2.academic__title{
 
 section.academic div.academic__courses{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     color: var(--color-titulos);
 }

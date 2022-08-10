@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="css/experience.css">
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/html.css">
+    <link rel="stylesheet" href="css/mensagensDeErro.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -51,8 +53,8 @@
         <div class="title__div">
             <img class="title__profile" src="assets\profile.png">
             <div class="title__container" id="#sobremim">
-                <h2 class="title__bio">Olá, meu nome é Daniel Faria e construo páginas web</h2>
-                <h3 class="title__subsection">Eu sou formado em Ciências Contábeis e atualmente estou participando no projeto Oracle ONE na Alura.</h3>
+                <h2 class="title__bio">Olá, meu nome é Daniel Faria</h2>
+                <h3 class="title__subsection">Eu sou formado em Ciências Contábeis e atualmente estou participando no projeto Oracle ONE na Alura e cursando de Engenharia de Software na BYU.</h3>
                 <ul class="title__network">
                     <!-- Ponha os links de suas redes sociais favoritas -->
                     <li class="title__network__item"><a href="https://github.com/danielcordeirofaria">Github <img src="assets\arrow.png"> </a></li>
@@ -258,20 +260,32 @@
                     <h3 class="formcontato__subtext">Quer entrar em contato comigo?</h3>
                     <h3 class="formcontato__subtext">Preencha o formulário ao lado e entrarei em contato o mais rápido possível. </h3>
                     <div class="label-float">
-                        <input class="text" type="text" id="nome" placeholder="">
+                        <input class="text" type="text" id="nome" placeholder="" maxlength="50">
                         <label>Nome</label>
+                        <div class="divParaErroNome">
+
+                        </div>
                     </div>
                     <div class="label-float">
-                        <input class="text" type="email" id="email" placeholder="">
+                        <input class="text" type="email" id="email" placeholder="" >
                         <label>Email</label>
+                        <div class="divParaErroEmail">
+
+                        </div>
                     </div>
                     <div class="label-float">
-                        <input class="text" type="text" id="assunto" placeholder="">
+                        <input class="text" type="text" id="assunto" placeholder="" maxlength="50">
                         <label>Assunto</label>
+                        <div class="divParaErroAssunto">
+                            
+                        </div>
                     </div>
                     <div class="label-float">
-                        <textarea class="text" rows="5" cols="40" id="mensagem" name="mensagem" placeholder=""></textarea>
+                        <input class="text" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="" >
                         <label>Sua mensagem</label>
+                        <div class="divParaErroMensagem">
+                            
+                        </div>
                     </div>
                     <button class="formcontato__botao">Enviar mensagem</button>
                 </div>

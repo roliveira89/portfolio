@@ -1,8 +1,7 @@
 
 section.about{
     background: var(--color-fundo-azul);
-    padding: 4rem 6.25rem;
-
+    padding: 4rem 5rem;
 }
 
 div.about__container{

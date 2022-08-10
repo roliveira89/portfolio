@@ -1,7 +1,7 @@
 
 section.experience{
     background: var(--cor-de-fundo);
-    padding: 4rem 6.25rem;
+    padding: 4rem 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,13 +42,12 @@ h3.experience__text{
 
 section.experience div.experiencie__box{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 50px;
 }
 
 section.experience img.experience__img{
-    width: 47rem;
-    height: 25.375rem;
+    width: 55vw;
 }
 
 section.experience div.experiencie__box div.experience__info{
@@ -115,7 +114,7 @@ section.experience div.experiencie__box:nth-child(3){
     section.experience div.experiencie__box{
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-between;
         margin-bottom: 50px;
     }
 
